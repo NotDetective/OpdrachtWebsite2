@@ -402,16 +402,16 @@ section.contact-page-right{
    place-items:  center;
 }
 
-#over-mij-page{
+.over-mij-page{
    background-color: pink;
    height: 800px;
    width: 95%;
    background-size: cover;
    border: 5px solid black;
    background-image: url(/img/149138473-close-up-illustration-of-opened-textbook-with-blank-pages-comic-book-style-cartoon-vector-illustrate-transformed.png);
-   display: grid;
    grid-template-columns: repeat(3, 1fr);
    grid-template-rows: repeat(3, 1fr);
+   display: grid;
 }
 
 .page-switch-over-mij{
@@ -523,11 +523,6 @@ div.java-text-bubble-skill div{
    display: flex;
 }
 
-.icon-star{
-   height: 36px;
-   width: 36px;
-}
-
 div.java-text-bubble-skill div{
    position: relative;
    width: 250px;
@@ -540,20 +535,51 @@ div.java-text-bubble-skill div{
 .javascript-text-bubble-skill{
    grid-column-start: 2;
    grid-column-end: 3;
-   grid-row-start: 2;
-   grid-row-end: 3;
-   position: absolute;
+   display: none;
 }
 
 div.javascript-text-bubble-skill h1{
-   top: 100px;
-   right: 20px;
    position: relative;
+   top: 365px;
+   right: 40px;
    transform: rotate(0deg);
 }
 
 div.javascript-text-bubble-skill div{
    position: relative;
-   top: 70px;
-   left: 130px;
+   top: 330px;
+   left: 100px;
+}
+
+.javascript-text-bubble-skill-bubble{
+   position: absolute;
+}
+
+.HTMLCSS-text-bubble-skill{
+   display: none;
+   grid-row-start: 2;
+   grid-row-end: 3;
+}
+
+.HTMLCSS-text-bubble-skill-bubble{
+   position: absolute;
+}
+
+div.HTMLCSS-text-bubble-skill h1{
+   transform: rotate(0deg);
+   position: relative;
+   top: 410px;
+   width: 200px;
+   left: 65px;
+}
+
+div.HTMLCSS-text-bubble-skill div{
+   position: relative;
+   top: 380px;
+   left: 140px;
+}
+
+.icon-star{
+   height: 36px;
+   width: 36px;
 }
