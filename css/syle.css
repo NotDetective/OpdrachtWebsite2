@@ -15,23 +15,11 @@ header {
    position: relative;
    width: 100%;
    height: 300px;
-   /* margin-bottom: 60px; */
-   /* background-color: gray; */
    display: flex;
    background-image: url(/img/header-footer/header.png);
    background-size: cover;
 }
 
-/* header::after {
-   content: " ";
-   display: block;
-   position: absolute;
-   bottom: -50px;
-   transform: rotate(-3deg);
-   width: 110%;
-   height: 100px;
-   left: -5%;
-} */
 
 header img{
    height: 350px;
@@ -49,26 +37,12 @@ header h1{
 footer {
    width: 100%;
    height: 300px;
-   /* background-color: gray; */
    margin-top: 60px;
    position: absolute;
    background-image: url(/img/header-footer/footer.png);
    background-size: cover;
 }
 
-/* footer::after{
-   content: " ";
-   display: block;
-   position: relative;
-   transform: rotate(-3deg);
-   top: -54px;
-   width: 110%;
-   left:  -1%;
-   height: 100px;
-   background: white;
-   border-bottom-style: solid;
-   z-index: 2;
-} */
 
 footer img{
    z-index: 3;
@@ -149,18 +123,6 @@ main section {
    border-style: solid;
    border-width: 5px;
    animation: animation-img-home-page 1s ease-out forwards 0.1ms;
-}
-
-@keyframes animation-img-home-page{
-    0%{
-
-    }
-    100%{
-      /*height: 700px;
-      width: 500px;
-      border-style: solid;
-      border-width: 5px;*/
-    }
 }
 
 main {
@@ -403,7 +365,7 @@ section.contact-page-right{
 }
 
 .blox-linkedin{
-   background-image: url(/img/background-comic.png);
+   background-image: url(/img/index-img-2.jpg);
    background-size: cover;
    display: grid;
    place-items:  center;
