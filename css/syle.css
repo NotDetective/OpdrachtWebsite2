@@ -43,7 +43,6 @@ footer {
    background-size: cover;
 }
 
-
 footer img{
    z-index: 3;
    position: absolute ;
@@ -660,4 +659,8 @@ div.html-css-javascript-project ul{
    flex-direction: column;
    justify-content: space-between;
    height: 300px;
+}
+
+input{
+   font-family: 'DigitalStrip', sans-serif;
 }
